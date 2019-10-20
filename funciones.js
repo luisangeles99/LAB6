@@ -2,7 +2,7 @@
 const request = require('request')
 
 if(process.env.NODE_ENV === 'production'){
-    var credentials = process.env.API_KEY
+    var credentials = process.env
 }
 else{
     var credentials= require('./credentials.js')
